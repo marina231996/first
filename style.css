@@ -1,0 +1,109 @@
+html,
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-family: Verdana;
+  background-image: url(img/slice-5.png);
+  background-repeat: repeat-x;
+}
+.main{
+  margin: 0 auto;
+  width: 900px;
+  overflow: hidden;
+}
+.header{
+  height: 149px;
+  width: 100%;
+  background-color: #727272;
+}
+.logo{
+  padding: 35px 0 0 50px;
+  float: left;
+}
+.link{
+  float: right;
+  padding: 10px 40px 0 0;
+}
+ul.top-link{
+  list-style: none;
+}
+ul.top-link li.top-link-li{
+  border-right: 1px solid white;
+  float: left;
+}
+ul.top-link li.top-link-li:last-child{
+  border-right: none;
+}
+ul.top-link li.top-link-li a{
+  color: white;
+  padding: 0 5px;
+  text-decoration: none;
+}
+.content{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background-image: url(img/slice-4.png);
+  background-repeat: repeat-x;
+  overflow: hidden;
+}
+.left-col{
+  float: left;
+  width: 235px;
+  padding-left: 25px;
+  padding-top: 45px;
+}
+.left-col h2{
+  padding-bottom: 25px;
+  margin: 0;
+}
+.left-col-ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.left-col-ul-li{
+  margin-bottom: 35px;
+}
+.left-col-ul-li-img{
+  float: left;
+  margin-right: 18px;
+}
+.main-col{
+  padding: 0;
+  width: 539px;
+  float: left;
+  margin-left: 25px;
+}
+.main-col-nav{
+  height: 85px;
+  padding-left: 55px;
+}
+.main-col-nav-ul{
+  list-style: none;
+}
+.main-col-nav-ul-li{
+  float: left;
+}
+.main-col-nav-ul-li a{
+  font-size: 27px;
+  color: #164b69;
+  padding-right: 20px;
+  text-decoration: none;
+}
+.main-col-content
+.main-col-content-h1{
+  font-size: 27px;
+  font-weight: normal;
+}
+.main-col-content-div{
+  margin-bottom: 110px;
+}
+.main-col-content-div p{
+  text-indent: 20px;
+}
+.main-col-content-h2{
+  font-size: 18px;
+  font-weight: normal;
+}
