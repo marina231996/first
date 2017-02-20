@@ -107,3 +107,10 @@ ul.top-link li.top-link-li a{
   font-size: 18px;
   font-weight: normal;
 }
+.cat{
+  background: url(img/cat.jpg) no-repeat;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  color: white;
+}
